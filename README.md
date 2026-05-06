@@ -1,11 +1,11 @@
 # HC-SR04 Ultrassônico I2C — MicroPython
 
-![](https://img.shields.io/badge/MicroPython-2B2728?logo=micropython&logoColor=white)
-![](https://img.shields.io/badge/RP2040-A22846?logo=raspberrypi&logoColor=white)
-![](https://img.shields.io/badge/I2C-FF6F00?logo=i2c&logoColor=white)
-![](https://img.shields.io/badge/HC--SR04-00A86B)
-![](https://img.shields.io/badge/OLED%20SSD1306%20%7C%20SH1107-9B59B6)
-![](https://img.shields.io/badge/BitDogLab%20v7-6C3483)
+![](https://img.shields.io/badge/MicroPython-v1.23-2B2728?logo=micropython&logoColor=white)
+![](https://img.shields.io/badge/Plataforma-RP2040-005C97?logo=raspberrypi&logoColor=white)
+![](https://img.shields.io/badge/Protocolo-I2C-FF6F00?logo=i2c&logoColor=white)
+![](https://img.shields.io/badge/Sensor-HC--SR04-00A86B)
+![](https://img.shields.io/badge/Display-SSD1306%20%7C%20SH1107-9B59B6)
+![](https://img.shields.io/badge/BitDogLab-v7-6C3483)
 
 ---
 
