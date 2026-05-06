@@ -1,11 +1,13 @@
 # HC-SR04 Ultrassônico I2C — MicroPython
 
-![](https://img.shields.io/badge/MicroPython-v1.23-2B2728?logo=micropython&logoColor=white)
-![](https://img.shields.io/badge/Plataforma-RP2040-005C97?logo=raspberrypi&logoColor=white)
-![](https://img.shields.io/badge/Protocolo-I2C-FF6F00?logo=i2c&logoColor=white)
-![](https://img.shields.io/badge/Sensor-HC--SR04-00A86B)
-![](https://img.shields.io/badge/Display-SSD1306%20%7C%20SH1107-9B59B6)
-![](https://img.shields.io/badge/BitDogLab-v7-6C3483)
+<p align="left">
+  <img src="https://img.shields.io/badge/MicroPython-2B2728?style=for-the-badge&logo=micropython&logoColor=white" alt="MicroPython"/>
+  <img src="https://img.shields.io/badge/Raspberry%20Pi%20Pico%20RP2040-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi Pico RP2040"/>
+  <img src="https://img.shields.io/badge/I2C-FF6F00?style=for-the-badge&logo=i2c&logoColor=white" alt="I2C"/>
+  <img src="https://img.shields.io/badge/HC--SR04-00A86B?style=for-the-badge&logo=sensor&logoColor=white" alt="HC-SR04"/>
+  <img src="https://img.shields.io/badge/OLED%20SSD1306%2FSH1107-9B59B6?style=for-the-badge&logo=display&logoColor=white" alt="OLED SSD1306/SH1107"/>
+  <img src="https://img.shields.io/badge/BitDogLab%20v7-6C3483?style=for-the-badge&logo=board&logoColor=white" alt="BitDogLab v7"/>
+</p>
 
 ---
 
@@ -30,7 +32,7 @@ O HC‑SR04 possui dois jumpers de solda (M1 e M2) na parte traseira do módulo 
 
 > **Importante:** Para utilizar o modo I2C, o jumper **M1 deve ser soldado (1)** e o **M2 deve permanecer aberto (0)**. Sem essa solda, o sensor não responde no endereço `0x57` do barramento I2C.
 
-![Ligação M1](Imagens/3.%20Ligação%20M1%20.jpeg)
+<img src="Imagens/3.%20Ligação%20M1%20.jpeg" width="480" alt="Ligação M1"/>
 
 ---
 
@@ -38,7 +40,7 @@ O HC‑SR04 possui dois jumpers de solda (M1 e M2) na parte traseira do módulo 
 
 Os conectores I2C dedicados da BitDogLab v7 não foram utilizados nesta montagem. Em vez disso, as conexões foram feitas diretamente nos **pinos inferiores da placa** (GPIO 8/9 para o sensor, GPIO 2/3 para o display), utilizando **jumpers convencionais**. Essa escolha foi feita pela **maior estabilidade mecânica** que os pinos inferiores proporcionam com cabos jumper.
 
-![Circuito montado](Imagens/4.%20Circuito%20montado.jpeg)
+<img src="Imagens/4.%20Circuito%20montado.jpeg" width="480" alt="Circuito montado"/>
 
 ### Pinagem
 
