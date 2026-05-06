@@ -1,13 +1,11 @@
 # HC-SR04 Ultrassônico I2C — MicroPython
 
-<p align="left">
-  <img src="https://img.shields.io/badge/MicroPython-2B2728?style=for-the-badge&logo=micropython&logoColor=white" alt="MicroPython"/>
-  <img src="https://img.shields.io/badge/Raspberry%20Pi%20Pico%20RP2040-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi Pico RP2040"/>
-  <img src="https://img.shields.io/badge/I2C-FF6F00?style=for-the-badge&logo=i2c&logoColor=white" alt="I2C"/>
-  <img src="https://img.shields.io/badge/HC--SR04-00A86B?style=for-the-badge&logo=sensor&logoColor=white" alt="HC-SR04"/>
-  <img src="https://img.shields.io/badge/OLED%20SSD1306%2FSH1107-9B59B6?style=for-the-badge&logo=display&logoColor=white" alt="OLED SSD1306/SH1107"/>
-  <img src="https://img.shields.io/badge/BitDogLab%20v7-6C3483?style=for-the-badge&logo=board&logoColor=white" alt="BitDogLab v7"/>
-</p>
+![](https://img.shields.io/badge/MicroPython-2B2728?logo=micropython&logoColor=white)
+![](https://img.shields.io/badge/RP2040-A22846?logo=raspberrypi&logoColor=white)
+![](https://img.shields.io/badge/I2C-FF6F00?logo=i2c&logoColor=white)
+![](https://img.shields.io/badge/HC--SR04-00A86B)
+![](https://img.shields.io/badge/OLED%20SSD1306%20%7C%20SH1107-9B59B6)
+![](https://img.shields.io/badge/BitDogLab%20v7-6C3483)
 
 ---
 
